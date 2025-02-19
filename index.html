@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Sitem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Giriş Ekranı -->
+    <div id="intro-screen">
+        <div class="snowfall"></div>
+        <h1>BLODWHITE</h1>
+    </div>
+
+    <!-- Ana İçerik -->
+    <div id="main-content" style="display: none;">
+        <div id="name-input">
+            <label for="username">Lütfen isminizi girin:</label>
+            <input type="text" id="username" placeholder="İsminizi girin...">
+            <button onclick="startChat()">Başla</button>
+        </div>
+
+        <div id="channels" style="display: none;">
+            <!-- Menü, Chat ve Anonim Kanallar Burada Olacak -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
